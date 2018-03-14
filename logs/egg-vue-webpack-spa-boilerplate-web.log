@@ -1,6 +1,0 @@
-2018-03-14 17:40:03,634 INFO 3944 [egg-logview] mount log /Users/libin/workspace/MySpace/wlb-blog/logs at http://127.0.0.1:7001/__logs
-2018-03-14 17:40:03,635 INFO 3943 [egg-logview] mount log /Users/libin/workspace/MySpace/wlb-blog/logs at http://127.0.0.1:7001/__logs
-2018-03-14 17:40:03,637 INFO 3945 [egg-logview] mount log /Users/libin/workspace/MySpace/wlb-blog/logs at http://127.0.0.1:7001/__logs
-2018-03-14 17:40:03,701 INFO 3942 [egg-logview] mount log /Users/libin/workspace/MySpace/wlb-blog/logs at http://127.0.0.1:7001/__logs
-2018-03-14 17:40:12,050 INFO 3945 [-/192.168.1.20/-/22ms GET /] [access] 192.168.1.20: - GET / HTTP/302 45 - 5 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
-2018-03-14 17:40:13,197 INFO 3945 [-/192.168.1.20/-/1079ms GET /admin/] [access] 192.168.1.20: - GET /admin/ HTTP/200 239922 - 1077 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
