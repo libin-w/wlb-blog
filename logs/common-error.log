@@ -1,0 +1,54 @@
+2018-03-13 11:51:51,312 ERROR 5592 [app/app.js] server render bundle error, try client render, the server render error Error: read webpack memory file[/Users/libin/workspace/MySpace/my-blog-project/app/view/app/app.js] content is empty, please check if the file exists
+    at /Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-webpack-vue/app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/libin/workspace/MySpace/my-blog-project/node_modules/co/index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+2018-03-13 16:35:07,742 ERROR 14618 [admin_app/admin_app.js] server render bundle error, try client render, the server render error Error: read webpack memory file[/Users/libin/workspace/MySpace/my-blog-project/app/view/admin_app/admin_app.js] content is empty, please check if the file exists
+    at /Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-webpack-vue/app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/libin/workspace/MySpace/my-blog-project/node_modules/co/index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+2018-03-13 16:38:03,012 ERROR 14646 [admin_app/admin_app.js] server render bundle error, try client render, the server render error Error: read webpack memory file[/Users/libin/workspace/MySpace/my-blog-project/app/view/admin_app/admin_app.js] content is empty, please check if the file exists
+    at /Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-webpack-vue/app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/libin/workspace/MySpace/my-blog-project/node_modules/co/index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+2018-03-13 16:39:59,996 ERROR 14668 [admin_app/admin_app.js] server render bundle error, try client render, the server render error Error: read webpack memory file[/Users/libin/workspace/MySpace/my-blog-project/app/view/admin_app/admin_app.js] content is empty, please check if the file exists
+    at /Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-webpack-vue/app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/libin/workspace/MySpace/my-blog-project/node_modules/co/index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+2018-03-13 16:40:58,492 ERROR 14685 [admin_app/admin_app.js] server render bundle error, try client render, the server render error Error: read webpack memory file[/Users/libin/workspace/MySpace/my-blog-project/app/view/admin_app/admin_app.js] content is empty, please check if the file exists
+    at /Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-webpack-vue/app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/libin/workspace/MySpace/my-blog-project/node_modules/co/index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+2018-03-13 16:42:17,468 ERROR 14703 [admin_app/admin_app.js] server render bundle error, try client render, the server render error Error: read webpack memory file[/Users/libin/workspace/MySpace/my-blog-project/app/view/admin_app/admin_app.js] content is empty, please check if the file exists
+    at /Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-webpack-vue/app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/libin/workspace/MySpace/my-blog-project/node_modules/co/index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+2018-03-13 16:43:17,440 ERROR 14731 [admin_app/admin_app.js] server render bundle error, try client render, the server render error Error: read webpack memory file[/Users/libin/workspace/MySpace/my-blog-project/app/view/admin_app/admin_app.js] content is empty, please check if the file exists
+    at /Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-webpack-vue/app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/libin/workspace/MySpace/my-blog-project/node_modules/co/index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+2018-03-13 16:44:15,991 ERROR 14754 [admin_app/admin_app.js] server render bundle error, try client render, the server render error Error: read webpack memory file[/Users/libin/workspace/MySpace/my-blog-project/app/view/admin_app/admin_app.js] content is empty, please check if the file exists
+    at /Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-webpack-vue/app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/libin/workspace/MySpace/my-blog-project/node_modules/co/index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+2018-03-13 16:45:25,601 ERROR 14789 [admin_app/admin_app.js] server render bundle error, try client render, the server render error Error: read webpack memory file[/Users/libin/workspace/MySpace/my-blog-project/app/view/admin_app/admin_app.js] content is empty, please check if the file exists
+    at /Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-webpack-vue/app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/libin/workspace/MySpace/my-blog-project/node_modules/co/index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)

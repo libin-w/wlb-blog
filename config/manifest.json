@@ -1,0 +1,48 @@
+{
+  "user_app/user_app.js": "/public/js/user_app/user_app.js",
+  "admin_app/admin_app.js": "/public/js/admin_app/admin_app.js",
+  "common.js": "/public/js/common.js",
+  "img/loading.gif": "/public/img/loading.gif",
+  "font/ionicons.eot?v=2.0.0": "/public/font/ionicons.eot",
+  "img/ionicons.svg?v=2.0.0": "/public/img/ionicons.svg",
+  "font/ionicons.ttf?v=2.0.0": "/public/font/ionicons.ttf",
+  "font/ionicons.woff?v=2.0.0": "/public/font/ionicons.woff",
+  "vendor.js": "/public/js/vendor.js",
+  "deps": {
+    "user_app/user_app.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/user_app/user_app.js"
+      ],
+      "css": []
+    },
+    "admin_app/admin_app.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/admin_app/admin_app.js"
+      ],
+      "css": []
+    },
+    "common.js": {
+      "js": [
+        "/public/js/common.js",
+        "/public/js/common.js"
+      ],
+      "css": []
+    },
+    "vendor.js": {
+      "js": [
+        "/public/js/common.js",
+        "/public/js/vendor.js"
+      ],
+      "css": []
+    }
+  },
+  "info": {
+    "publicPath": "/public/",
+    "buildPath": "public",
+    "mapped": true
+  }
+}

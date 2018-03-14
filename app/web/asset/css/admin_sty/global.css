@@ -1,0 +1,19 @@
+@import '../common_sty/normalize.css';
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+html #app,
+body #app {
+  width: 100%;
+  height: 100%;
+}
+html #app > .ivu-layout,
+body #app > .ivu-layout {
+  height: 100%;
+}
+html #app > .ivu-layout > .ivu-layout-has-sider > .ivu-layout-content > .base-page-container,
+body #app > .ivu-layout > .ivu-layout-has-sider > .ivu-layout-content > .base-page-container {
+  height: 100%;
+}

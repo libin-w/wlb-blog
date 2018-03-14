@@ -1,0 +1,362 @@
+{
+  "siteFile": {
+    "/favicon.ico": "/Users/libin/workspace/MySpace/my-blog-project/config/config.default.js"
+  },
+  "view": {
+    "cache": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-view/config/config.local.js",
+    "root": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-view/config/config.default.js",
+    "defaultExtension": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-view/config/config.default.js",
+    "mapping": {
+      ".js": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-view-vue-ssr/config/config.default.js"
+    }
+  },
+  "vuessr": {
+    "layout": "/Users/libin/workspace/MySpace/my-blog-project/config/config.default.js",
+    "doctype": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "manifest": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "injectHeadRegex": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "injectBodyRegex": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "injectCss": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-view-vue-ssr/config/config.local.js",
+    "injectJs": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "crossorigin": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "injectRes": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "fallbackToClient": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-view-vue-ssr/config/config.default.js",
+    "cache": {
+      "max": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-view-vue-ssr/config/config.default.js",
+      "maxAge": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-view-vue-ssr/config/config.default.js"
+    },
+    "afterRender": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-view-vue-ssr/config/config.default.js"
+  },
+  "logger": {
+    "consoleLevel": "/Users/libin/workspace/MySpace/my-blog-project/config/config.default.js",
+    "dir": "/Users/libin/workspace/MySpace/my-blog-project/config/config.default.js",
+    "encoding": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "env": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "level": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/libin/workspace/MySpace/my-blog-project/config/config.default.js",
+    "dir": "/Users/libin/workspace/MySpace/my-blog-project/config/config.default.js",
+    "maxAge": "/Users/libin/workspace/MySpace/my-blog-project/config/config.local.js",
+    "dynamic": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-static/config/config.default.js"
+  },
+  "keys": "/Users/libin/workspace/MySpace/my-blog-project/config/config.default.js",
+  "middleware": "/Users/libin/workspace/MySpace/my-blog-project/config/config.default.js",
+  "development": {
+    "watchDirs": "/Users/libin/workspace/MySpace/my-blog-project/config/config.local.js",
+    "ignoreDirs": "/Users/libin/workspace/MySpace/my-blog-project/config/config.local.js",
+    "fastReady": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-development/config/config.default.js"
+  },
+  "logview": {
+    "dir": "/Users/libin/workspace/MySpace/my-blog-project/config/config.local.js",
+    "prefix": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-logview/config/config.default.js",
+    "staticHost": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-logview/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/libin/workspace/MySpace/my-blog-project/config/config.local.js",
+    "protocolWhiteList": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "mysql": {
+    "client": {
+      "host": "/Users/libin/workspace/MySpace/my-blog-project/config/config.local.js",
+      "port": "/Users/libin/workspace/MySpace/my-blog-project/config/config.local.js",
+      "user": "/Users/libin/workspace/MySpace/my-blog-project/config/config.local.js",
+      "password": "/Users/libin/workspace/MySpace/my-blog-project/config/config.local.js",
+      "database": "/Users/libin/workspace/MySpace/my-blog-project/config/config.local.js"
+    },
+    "app": "/Users/libin/workspace/MySpace/my-blog-project/config/config.local.js",
+    "agent": "/Users/libin/workspace/MySpace/my-blog-project/config/config.local.js",
+    "default": {
+      "database": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-mysql/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-multipart/config/config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "cors": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-cors/config/config.default.js",
+  "webpack": {
+    "port": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-webpack/config/config.default.js",
+    "proxy": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-webpack/config/config.default.js",
+    "proxyMapping": {
+      "js": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-webpack/config/config.default.js",
+      "css": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-webpack/config/config.default.js",
+      "json": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-webpack/config/config.default.js",
+      "html": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-webpack/config/config.default.js",
+      "map": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-webpack/config/config.default.js"
+    },
+    "webpackConfigList": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg-webpack/config/config.default.js"
+  },
+  "env": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+  "name": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "version": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "description": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "debug": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "build": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "build:dev": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "build:test": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "build:prod": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "start": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "start:test": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "start:prod": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "lint": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "fix": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "axios": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "egg": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "egg-logger": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "egg-view-vue-ssr": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "element-ui": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "extend": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "iview": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "lodash": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "mint-ui": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "mockjs": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "moment": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "vue": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "vue-hot-reload-api": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "vue-router": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "vue-server-renderer": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "vuex": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "vuex-router-sync": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod-egg": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "autoprefixer": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "babel-core": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "babel-eslint": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "babel-loader": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "babel-plugin-add-module-exports": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "babel-plugin-syntax-dynamic-import": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "babel-plugin-transform-object-assign": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "babel-plugin-transform-object-rest-spread": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "babel-plugin-transform-runtime": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "babel-preset-env": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "cross-env": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "directory-named-webpack-plugin": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "easywebpack-cli": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "easywebpack-vue": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "egg-logview": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "egg-webpack": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "egg-webpack-vue": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "eslint-loader": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "eslint-plugin-vue": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "imagemin-webpack-plugin": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "install": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "ip": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "less": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "less-loader": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "node-sass": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "postcss-loader": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "progress-bar-webpack-plugin": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "sass-loader": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "uglifyjs-webpack-plugin": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "vconsole": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "vue-template-compiler": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "webpack-manifest-resource-plugin": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "url": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "license": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "homepage": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "strict": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "depth": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js"
+    }
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+    "logging": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "port": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "/Users/libin/workspace/MySpace/my-blog-project/node_modules/egg/config/config.default.js"
+  }
+}
