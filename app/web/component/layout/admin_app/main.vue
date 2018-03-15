@@ -1,7 +1,7 @@
 <template>
     <Layout>
         <Header>Header</Header>
-        <Layout>
+        <Layout class="ivu-layout-has-sider">
             <Sider hide-trigger>Sider</Sider>
             <Content class="base-page-container">
                 <div class="base-page-container">
@@ -13,11 +13,8 @@
     </Layout>
 </template>
 <script type="text/babel">
-// import PageContainer from './PageContainer/PageContainer';
 export default {
-    // components: {
-    //     PageContainer
-    // }
+
 };
 </script>
 
