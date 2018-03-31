@@ -9,11 +9,42 @@ body #app {
   width: 100%;
   height: 100%;
 }
-html #app > .ivu-layout,
-body #app > .ivu-layout {
+html #app > .base-layout-style,
+body #app > .base-layout-style {
   height: 100%;
+  display: flex;
 }
-html #app > .ivu-layout > .ivu-layout-has-sider > .ivu-layout-content > .base-page-container,
-body #app > .ivu-layout > .ivu-layout-has-sider > .ivu-layout-content > .base-page-container {
+html #app > .base-layout-style > .layout-sider,
+body #app > .base-layout-style > .layout-sider {
+  width: 220px;
+  background-color: red;
+}
+html #app > .base-layout-style > .layout-body,
+body #app > .base-layout-style > .layout-body {
+  flex-grow: 1;
+  background-color: wheat;
+}
+html #app > .base-layout-style > .layout-body > .layout-header,
+body #app > .base-layout-style > .layout-body > .layout-header {
+  height: 60px;
+  background-color: violet;
+}
+html #app > .base-layout-style > .layout-body > .layout-content,
+body #app > .base-layout-style > .layout-body > .layout-content {
+  box-sizing: border-box;
   height: 100%;
+  padding-top: 60px;
+  margin-top: -60px;
+}
+html #app > .base-layout-style > .layout-body > .layout-content > .breadcrumb-container,
+body #app > .base-layout-style > .layout-body > .layout-content > .breadcrumb-container {
+  height: 44px;
+  background-color: yellow;
+}
+html #app > .base-layout-style > .layout-body > .layout-content > .content-container,
+body #app > .base-layout-style > .layout-body > .layout-content > .content-container {
+  box-sizing: border-box;
+  height: 100%;
+  padding-top: 44px;
+  margin-top: -44px;
 }

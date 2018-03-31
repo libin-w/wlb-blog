@@ -1,16 +1,14 @@
 import { sync } from 'vuex-router-sync';
-import store from 'store/app';
+import store from 'store/admin_app';
 import router from '../../routers/adminRouter';
 import admin_app from './admin_app.vue';
 import App from 'app';
-import Layout from 'component/layout/admin_app';
+import AdminLayout from 'component/layout/admin_app';
 
 import '../../asset/css/admin_sty/global.css';
-import iView from 'iview';
-import 'iview/dist/styles/iview.css';
-App.use(iView);
 
-App.component(Layout.name, Layout);
+
+App.component(AdminLayout.name, AdminLayout);
 
 sync(store, router);
 

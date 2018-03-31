@@ -2,6 +2,7 @@ import Vue from 'vue';
 
 import VueRouter from 'vue-router';
 
+import Home from '../component/app/admin/Home/Home';
 import ListView from '../component/app/admin/list';
 import Detail from '../component/app/detail';
 
@@ -13,7 +14,19 @@ const router = new VueRouter({
     routes: [
         {
             path: '/',
-            component: ListView
+            component: Home
+        },
+        {
+            path: '/home',
+            component: Home
+        },
+        {
+            path: '/group_list',
+            component: () => import('../component/app/admin/ManageArticle/Groups/GroupList')
+        },
+        {
+            path: '/add_group',
+            component: () => import('../component/app/admin/ManageArticle/Groups/AddGroup')
         },
         {
             path: '/list',

@@ -34,6 +34,9 @@ export default {
                     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
                     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
                     <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                    <script type="text/javascript" src="https://vuejs.org/js/vue.min.js"></script>
+                    <script src="https://cdn.bootcss.com/axios/0.17.1/axios.min.js"></script>
                   </head>
                   <body :class="baseClass">
                     ${tpl}

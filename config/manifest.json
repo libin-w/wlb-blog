@@ -1,57 +1,58 @@
 {
-  "user_app/user_app.js": "/public/js/user_app/user_app.60b303af.js",
-  "user_app/user_app.css": "/public/css/user_app/user_app.ebcb8092.css",
-  "admin_app/admin_app.js": "/public/js/admin_app/admin_app.1edc967e.js",
-  "admin_app/admin_app.css": "/public/css/admin_app/admin_app.eb557c3b.css",
-  "common.js": "/public/js/common.edde991d.js",
-  "common.css": "/public/css/common.d41d8cd9.css",
-  "font/ionicons.woff?v=2.0.0": "/public/font/ionicons.05acfdb5.woff",
-  "font/ionicons.eot?v=2.0.0": "/public/font/ionicons.2c2ae068.eot",
-  "img/ionicons.svg?v=2.0.0": "/public/img/ionicons.621bd386.svg",
-  "img/loading.gif": "/public/img/loading.0c81ad12.gif",
-  "font/ionicons.ttf?v=2.0.0": "/public/font/ionicons.24712f6c.ttf",
-  "vendor.js": "/public/js/vendor.4b0c0a0d.js",
+  "js/chunk/0.js": "/public/js/chunk/0.js",
+  "js/chunk/1.js": "/public/js/chunk/1.js",
+  "admin_app/admin_app.js": "/public/js/admin_app/admin_app.js",
+  "user_app/user_app.js": "/public/js/user_app/user_app.js",
+  "common.js": "/public/js/common.js",
+  "img/loading.gif": "/public/img/loading.gif",
+  "img/logo_img.png": "/public/img/logo_img.png",
+  "vendor.js": "/public/js/vendor.js",
   "deps": {
-    "user_app/user_app.js": {
+    "js/chunk/0.js": {
       "js": [
-        "/public/js/vendor.4b0c0a0d.js",
-        "/public/js/common.edde991d.js",
-        "/public/js/user_app/user_app.60b303af.js"
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/chunk/0.js"
       ],
-      "css": [
-        "/public/css/common.d41d8cd9.css",
-        "/public/css/user_app/user_app.ebcb8092.css"
-      ]
+      "css": []
+    },
+    "js/chunk/1.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/chunk/1.js"
+      ],
+      "css": []
     },
     "admin_app/admin_app.js": {
       "js": [
-        "/public/js/vendor.4b0c0a0d.js",
-        "/public/js/common.edde991d.js",
-        "/public/js/admin_app/admin_app.1edc967e.js"
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/admin_app/admin_app.js"
       ],
-      "css": [
-        "/public/css/common.d41d8cd9.css",
-        "/public/css/admin_app/admin_app.eb557c3b.css"
-      ]
+      "css": []
+    },
+    "user_app/user_app.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/user_app/user_app.js"
+      ],
+      "css": []
     },
     "common.js": {
       "js": [
-        "/public/js/common.edde991d.js",
-        "/public/js/common.edde991d.js"
+        "/public/js/common.js",
+        "/public/js/common.js"
       ],
-      "css": [
-        "/public/css/common.d41d8cd9.css",
-        "/public/css/common.d41d8cd9.css"
-      ]
+      "css": []
     },
     "vendor.js": {
       "js": [
-        "/public/js/common.edde991d.js",
-        "/public/js/vendor.4b0c0a0d.js"
+        "/public/js/common.js",
+        "/public/js/vendor.js"
       ],
-      "css": [
-        "/public/css/common.d41d8cd9.css"
-      ]
+      "css": []
     }
   },
   "info": {

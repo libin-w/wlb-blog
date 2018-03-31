@@ -15,6 +15,11 @@ module.exports = {
         store: 'app/web/store',
         vue: 'vue/dist/vue.esm.js'
     },
+    externals: {
+        vue: 'Vue',
+        axios: 'axios',
+        ElementUI: 'element-ui'
+    },
     dll: ['vue', 'axios', 'vue-router', 'vuex', 'vuex-router-sync'],
     loaders: {},
     plugins: {},

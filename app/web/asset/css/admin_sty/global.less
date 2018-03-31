@@ -1,4 +1,8 @@
 @import '../common_sty/normalize.css';
+@headerHeight: 60px;
+@siderWidth: 220px;
+@breadcrumbHeight: 44px;
+@contentBgColor: #f3f3f4;
 html,
 body {
     width: 100%;
@@ -6,15 +10,124 @@ body {
     #app {
         width: 100%;
         height: 100%;
-        &>.ivu-layout {
+        & > .base-layout-style {
             height: 100%;
-            &>.ivu-layout-has-sider{
-                &>.ivu-layout-content{
-                    &>.base-page-container{
+            display: flex;
+            & > .layout-sider {
+                width: @siderWidth;
+                background-color: red;
+            }
+            & > .layout-body {
+                flex-grow: 1;
+                background-color: wheat;
+                & > .layout-header {
+                    height: @headerHeight;
+                    background-color: violet;
+                }
+                & > .layout-content {
+                    box-sizing: border-box;
+                    height: 100%;
+                    padding-top: @headerHeight;
+                    margin-top: -@headerHeight;
+                    & > .breadcrumb-container {
+                        height: @breadcrumbHeight;
+                        background-color: yellow;
+                    }
+                    & > .content-container {
+                        box-sizing: border-box;
                         height: 100%;
+                        padding-top: @breadcrumbHeight;
+                        margin-top: -@breadcrumbHeight;
                     }
                 }
             }
+            // & > .layout-header {
+            //     height: @headerHeight;
+            //     background-color: #545c64;
+            //     position: relative;
+            //     z-index: 1;
+            //     display: flex;
+            //     & > .header-logo {
+            //         width: @siderWidth;
+            //         box-sizing: border-box;
+            //         &>h1{
+            //             width: 100%;
+            //             height: 100%;
+            //             margin: 0px;
+            //             background: url('../../images/logo_img.png') no-repeat center center;
+            //             background-size: 150px 45px;
+            //             text-indent: -9999px;
+            //         }
+            //     }
+            //     & > .header-content {
+            //         flex-grow: 1;
+            //     }
+            // }
+            // & > .layout-body {
+            //     height: 100%;
+            //     padding-top: @headerHeight;
+            //     margin-top: -@headerHeight;
+            //     display: flex;
+            //     box-sizing: border-box;
+            //     & > .layout-sider {
+            //         width: @siderWidth;
+            //     }
+            //     & > .layout-content {
+            //         flex-grow: 1;
+            //         background-color: @contentBgColor;
+            //         & > .breadcrumb-container {
+            //             padding: 15px;
+            //         }
+            //         & > .content-container {
+            //             height: 100%;
+            //             padding-top: @breadcrumbHeight;
+            //             margin-top: -@breadcrumbHeight;
+            //             box-sizing: border-box;
+            //             & > div {
+            //                 height: 100%;
+            //                 overflow-y: auto;
+            //                 & > .common-page-container {
+            //                     padding: 0px 15px 15px;
+            //                     & > .page-container {
+            //                         background-color: #ffffff;
+            //                         border-radius: 4px;
+            //                         overflow: hidden;
+            //                         padding: 20px 15px;
+            //                         box-sizing: border-box;
+            //                     }
+            //                 }
+            //                 & > .list-page-container {
+            //                     height: 100%;
+            //                     padding: 0px 15px;
+            //                     box-sizing: border-box;
+            //                     & > .page-container {
+            //                         height: 100%;
+            //                         position: relative;
+            //                         & > .table-container {
+            //                             width: 100%;
+            //                             position: absolute;
+            //                             top: 0px;
+            //                             bottom: 57px;
+            //                             left: 0px;
+            //                             background-color: #ffffff;
+            //                             & > .el-table {
+            //                                 height: 100%!important;
+            //                             }
+            //                         }
+            //                         & > .pagination-container {
+            //                             width: auto;
+            //                             position: absolute;
+            //                             padding: 10px 0px 15px;
+            //                             bottom: 0px;
+            //                             right: 0px;
+
+            //                         }
+            //                     }
+            //                 }
+            //             }
+            //         }
+            //     }
+            // }
         }
     }
 }
