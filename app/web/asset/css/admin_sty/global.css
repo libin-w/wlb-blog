@@ -9,42 +9,132 @@ body #app {
   width: 100%;
   height: 100%;
 }
-html #app > .base-layout-style,
-body #app > .base-layout-style {
+html #app > .admin-page-container,
+body #app > .admin-page-container {
+  width: 100%;
+  height: 100%;
+}
+html #app > .admin-page-container > div,
+body #app > .admin-page-container > div {
+  width: 100%;
+  height: 100%;
+}
+html #app > .admin-page-container > div > .handle-page-layout-style,
+body #app > .admin-page-container > div > .handle-page-layout-style {
   height: 100%;
   display: flex;
 }
-html #app > .base-layout-style > .layout-sider,
-body #app > .base-layout-style > .layout-sider {
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-sider,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-sider {
   width: 220px;
-  background-color: red;
+  background-color: #2a303e;
 }
-html #app > .base-layout-style > .layout-body,
-body #app > .base-layout-style > .layout-body {
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-sider > .logo-container,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-sider > .logo-container {
+  text-indent: -9999px;
+  height: 90px;
+  margin: 0px;
+  background: url('../../images/logo_img.png') no-repeat center center;
+  background-size: 200px 60px;
+}
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-sider > .sider-menu .el-menu-item.is-active,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-sider > .sider-menu .el-menu-item.is-active {
+  border-right: 3px solid #19a5fc;
+}
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body {
   flex-grow: 1;
-  background-color: wheat;
+  width: 0px;
+  background-color: #eeeff3;
 }
-html #app > .base-layout-style > .layout-body > .layout-header,
-body #app > .base-layout-style > .layout-body > .layout-header {
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header {
   height: 60px;
-  background-color: violet;
+  background-color: #3d495c;
 }
-html #app > .base-layout-style > .layout-body > .layout-content,
-body #app > .base-layout-style > .layout-body > .layout-content {
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .el-col,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .el-col {
+  height: 100%;
+}
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item {
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .head-portrait,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .head-portrait {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .head-portrait > img,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .head-portrait > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: block;
+  background-color: #ffffff;
+}
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .header-handle-dropdown,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .header-handle-dropdown {
+  color: #ffffff;
+}
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content {
   box-sizing: border-box;
   height: 100%;
   padding-top: 60px;
   margin-top: -60px;
 }
-html #app > .base-layout-style > .layout-body > .layout-content > .breadcrumb-container,
-body #app > .base-layout-style > .layout-body > .layout-content > .breadcrumb-container {
-  height: 44px;
-  background-color: yellow;
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .breadcrumb-container,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .breadcrumb-container {
+  height: 40px;
+  box-sizing: border-box;
+  padding: 13px 15px;
 }
-html #app > .base-layout-style > .layout-body > .layout-content > .content-container,
-body #app > .base-layout-style > .layout-body > .layout-content > .content-container {
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .content-container,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .content-container {
   box-sizing: border-box;
   height: 100%;
-  padding-top: 44px;
-  margin-top: -44px;
+  padding-top: 40px;
+  margin-top: -40px;
+}
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .content-container > .common-page-container,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .content-container > .common-page-container {
+  height: 100%;
+  padding: 0px 15px;
+  overflow-y: auto;
+}
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .content-container > .list-page-container,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .content-container > .list-page-container {
+  width: 100%;
+  height: 100%;
+  padding: 0px 15px 15px;
+  box-sizing: border-box;
+}
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .content-container > .list-page-container > .page-container,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .content-container > .list-page-container > .page-container {
+  height: 100%;
+}
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .content-container > .list-page-container > .page-container > .table-container,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .content-container > .list-page-container > .page-container > .table-container {
+  height: 100%;
+  box-sizing: border-box;
+  padding-bottom: 40px;
+}
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .content-container > .list-page-container > .page-container > .table-container > .el-table,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .content-container > .list-page-container > .page-container > .table-container > .el-table {
+  height: 100% !important;
+  border-radius: 4px;
+}
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .content-container > .list-page-container > .page-container > .pagination-container,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .content-container > .list-page-container > .page-container > .pagination-container {
+  height: 40px;
+  margin-top: -40px;
+  padding-top: 8px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
 }

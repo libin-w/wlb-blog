@@ -1,6 +1,6 @@
 <template>
     <div class="common-page-container">
-        <div class="page-container">
+        <div class="add-group-container">
             <el-form :model="ruleForm2" status-icon :rules="rules2" ref="ruleForm2" label-width="100px" class="demo-ruleForm">
                 <el-form-item label="密码" prop="pass">
                     <el-input type="password" v-model="ruleForm2.pass" auto-complete="off"></el-input>
@@ -16,13 +16,47 @@
                     <el-button @click="resetForm('ruleForm2')">重置</el-button>
                 </el-form-item>
             </el-form>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
+            <h1>rtew</h1>
         </div>
 
     </div>
+
 </template>
-<script type="text/babel">
+<script>
 export default {
-    name: 'Home',
+    name: 'AddGroup',
     data() {
         const checkAge = (rule, value, callback) => {
             if (!value) {
@@ -59,6 +93,7 @@ export default {
                 callback();
             }
         };
+
         return {
             ruleForm2: {
                 pass: '',
@@ -93,8 +128,14 @@ export default {
             this.$refs[formName].resetFields();
         }
     }
-
-};
-
+}
 </script>
+<style lang="less" scoped>
+.common-page-container {
+    & > .add-group-container {
+        min-height: 600px;
+        background-color: #ffffff;
+    }
+}
+</style>
 

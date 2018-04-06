@@ -27,7 +27,7 @@ module.exports = app => {
 
     exports.keys = '123456';
 
-    exports.middleware = ['access'];
+    exports.middleware = ['access', 'auth'];
 
     return exports;
 };
