@@ -1,62 +1,56 @@
 {
-  "admin_app/admin_app.js": "/public/js/admin_app/admin_app.fc90096c.js",
-  "admin_app/admin_app.css": "/public/css/admin_app/admin_app.2dd4ff0c.css",
-  "user_app/user_app.js": "/public/js/user_app/user_app.e48ca51e.js",
-  "user_app/user_app.css": "/public/css/user_app/user_app.ebcb8092.css",
-  "common.js": "/public/js/common.a42b0c4c.js",
-  "img/fa-regular-400.svg": "/public/img/fa-regular-400.82f60bd0.svg",
-  "img/logo_img.png": "/public/img/logo_img.b1e13bd1.png",
-  "font/element-icons.ttf": "/public/font/element-icons.6f0a7632.ttf",
-  "font/fa-solid-900.woff2": "/public/font/fa-solid-900.0ab54153.woff2",
-  "font/fa-regular-400.woff2": "/public/font/fa-regular-400.cd6c777f.woff2",
-  "font/fa-regular-400.ttf": "/public/font/fa-regular-400.ad97afd3.ttf",
-  "img/fa-solid-900.svg": "/public/img/fa-solid-900.962a1bf3.svg",
-  "font/fa-brands-400.woff2": "/public/font/fa-brands-400.e8c322de.woff2",
-  "font/fa-solid-900.ttf": "/public/font/fa-solid-900.b87b9ba5.ttf",
-  "font/fa-regular-400.woff": "/public/font/fa-regular-400.ef60a4f6.woff",
-  "font/fa-brands-400.woff": "/public/font/fa-brands-400.a046592b.woff",
-  "font/fa-solid-900.eot": "/public/font/fa-solid-900.8e3c7f55.eot",
-  "font/element-icons.woff": "/public/font/element-icons.2fad952a.woff",
-  "font/fa-brands-400.ttf": "/public/font/fa-brands-400.c5ebe0b3.ttf",
-  "font/fa-brands-400.eot": "/public/font/fa-brands-400.13db00b7.eot",
-  "img/fa-brands-400.svg": "/public/img/fa-brands-400.a1a749e8.svg",
-  "font/fa-solid-900.woff": "/public/font/fa-solid-900.faff9214.woff",
-  "font/fa-regular-400.eot": "/public/font/fa-regular-400.701ae6ab.eot",
-  "img/welcome_img.png": "/public/img/welcome_img.71bb7bc0.png",
-  "img/loading.gif": "/public/img/loading.0c81ad12.gif",
-  "vendor.js": "/public/js/vendor.4b0c0a0d.js",
+  "admin_app/admin_app.js": "/public/js/admin_app/admin_app.js",
+  "user_app/user_app.js": "/public/js/user_app/user_app.js",
+  "common.js": "/public/js/common.js",
+  "font/fa-regular-400.woff": "/public/font/fa-regular-400.woff",
+  "img/loading.gif": "/public/img/loading.gif",
+  "img/welcome_img.png": "/public/img/welcome_img.png",
+  "font/fa-brands-400.eot": "/public/font/fa-brands-400.eot",
+  "img/fa-brands-400.svg": "/public/img/fa-brands-400.svg",
+  "font/fa-brands-400.ttf": "/public/font/fa-brands-400.ttf",
+  "font/fa-brands-400.woff": "/public/font/fa-brands-400.woff",
+  "font/fa-brands-400.woff2": "/public/font/fa-brands-400.woff2",
+  "font/fa-regular-400.eot": "/public/font/fa-regular-400.eot",
+  "img/fa-regular-400.svg": "/public/img/fa-regular-400.svg",
+  "font/fa-regular-400.ttf": "/public/font/fa-regular-400.ttf",
+  "img/logo_img.png": "/public/img/logo_img.png",
+  "font/fa-regular-400.woff2": "/public/font/fa-regular-400.woff2",
+  "font/fa-solid-900.eot": "/public/font/fa-solid-900.eot",
+  "img/fa-solid-900.svg": "/public/img/fa-solid-900.svg",
+  "font/fa-solid-900.ttf": "/public/font/fa-solid-900.ttf",
+  "font/fa-solid-900.woff": "/public/font/fa-solid-900.woff",
+  "font/fa-solid-900.woff2": "/public/font/fa-solid-900.woff2",
+  "font/element-icons.ttf": "/public/font/element-icons.ttf",
+  "font/element-icons.woff": "/public/font/element-icons.woff",
+  "vendor.js": "/public/js/vendor.js",
   "deps": {
     "admin_app/admin_app.js": {
       "js": [
-        "/public/js/vendor.4b0c0a0d.js",
-        "/public/js/common.a42b0c4c.js",
-        "/public/js/admin_app/admin_app.fc90096c.js"
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/admin_app/admin_app.js"
       ],
-      "css": [
-        "/public/css/admin_app/admin_app.2dd4ff0c.css"
-      ]
+      "css": []
     },
     "user_app/user_app.js": {
       "js": [
-        "/public/js/vendor.4b0c0a0d.js",
-        "/public/js/common.a42b0c4c.js",
-        "/public/js/user_app/user_app.e48ca51e.js"
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/user_app/user_app.js"
       ],
-      "css": [
-        "/public/css/user_app/user_app.ebcb8092.css"
-      ]
+      "css": []
     },
     "common.js": {
       "js": [
-        "/public/js/common.a42b0c4c.js",
-        "/public/js/common.a42b0c4c.js"
+        "/public/js/common.js",
+        "/public/js/common.js"
       ],
       "css": []
     },
     "vendor.js": {
       "js": [
-        "/public/js/common.a42b0c4c.js",
-        "/public/js/vendor.4b0c0a0d.js"
+        "/public/js/common.js",
+        "/public/js/vendor.js"
       ],
       "css": []
     }

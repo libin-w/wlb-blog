@@ -71,23 +71,45 @@
         </div>
         <div class="layout-body">
             <el-row class="layout-header">
-                <el-col :span="12">
+                <el-col :span="14">
 
                 </el-col>
-                <el-col class="right-item" :span="12">
-                    <div class="head-portrait">
-                        <img src="" alt="">
+                <el-col class="right-item" :span="10">
+                    <div class="user-info">
+                        <div class="head-portrait">
+                            <img src="" alt="">
+                        </div>
+                        <span class="user-name">用名</span>
+                        <i class="el-icon-caret-bottom"></i>
+                        <ul class="dropdown-container">
+                            <div class="padding-space"></div>
+                            <router-link to="/one" tag="li">
+                                <i class="fas fa-user-secret"></i>
+                                <span>账号信息</span>
+                            </router-link>
+                            <router-link to="/one" tag="li">
+                                <i class="fas fa-key"></i>
+                                <span>安全设置</span>
+                            </router-link>
+                            <li class="logout-item">
+                                <i class="fas fa-user-secret"></i>
+                                <span>退出</span>
+                            </li>
+                        </ul>
                     </div>
-                    <el-dropdown class="header-handle-dropdown">
-                        <span>
-                            <span>用户名</span>
-                            <i class="el-icon-arrow-down el-icon--right"></i>
-                        </span>
-                        <el-dropdown-menu slot="dropdown">
-                            <el-dropdown-item>修改个人资料</el-dropdown-item>
-                            <el-dropdown-item>退出登录</el-dropdown-item>
-                        </el-dropdown-menu>
-                    </el-dropdown>
+                    <div class="handle-icon-container">
+                        <div class="between-space"></div>
+                        <el-badge :value="12" :max="9" class="handle-icon-item handle-is-active">
+                            <i @click="openSiderMessage()" class="fas fa-bell"></i>
+                        </el-badge>
+
+                        <div class="between-space"></div>
+                        <div class="handle-icon-item">
+                            <i class="fas fa-question-circle"></i>
+                        </div>
+
+                    </div>
+
                 </el-col>
             </el-row>
             <div class="layout-content">
@@ -102,6 +124,13 @@
                 <div class="content-container">
                     <router-view></router-view>
                 </div>
+                <div class="sider-message-container">
+                    <transition name="sider-message-fade">
+                        <div v-show="siderMessageIsShow" class="sider-message-content">
+                            <span @click="closeSiderMessage()">xxx</span> 1111</div>
+                    </transition>
+                </div>
+
             </div>
         </div>
     </div>
@@ -115,8 +144,17 @@ export default {
     },
     data() {
         return {
-            defaultActiveMenu: this.$router.currentRoute.path
+            defaultActiveMenu: this.$router.currentRoute.path,
+            siderMessageIsShow: false
         };
+    },
+    methods: {
+        openSiderMessage() {
+            this.siderMessageIsShow = true;
+        },
+        closeSiderMessage() {
+            this.siderMessageIsShow = false;
+        }
     },
     created() {
         console.log(this.$router.currentRoute.path);

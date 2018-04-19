@@ -38,10 +38,13 @@ body {
                     & > .layout-body {
                         flex-grow: 1;
                         width: 0px;
+                        height: 100%;
                         background-color: #eeeff3;
                         & > .layout-header {
                             height: @headerHeight;
                             background-color: #3d495c;
+                            position: relative;
+                            z-index: 2;
                             & > .el-col {
                                 height: 100%;
                             }
@@ -50,20 +53,108 @@ body {
                                 display: flex;
                                 align-items: center;
                                 justify-content: flex-end;
-                                & > .head-portrait {
-                                    width: 32px;
-                                    height: 32px;
-                                    margin-right: 10px;
-                                    & > img {
+                                color: #ffffff;
+                                & > .user-info {
+                                    display: flex;
+                                    align-items: center;
+                                    padding-left: 15px;
+                                    border-left: 1px solid #2a303e;
+                                    position: relative;
+                                    & > .head-portrait {
+                                        width: 32px;
+                                        height: 32px;
+                                        margin-right: 10px;
+                                        & > img {
+                                            width: 100%;
+                                            height: 100%;
+                                            border-radius: 50%;
+                                            display: block;
+                                            background-color: #ffffff;
+                                        }
+                                    }
+                                    & > .user-name {
+                                        font-size: 14px;
+                                        overflow: hidden;
+                                        text-overflow: ellipsis;
+                                        white-space: nowrap;
+                                        max-width: 80px;
+                                    }
+                                    & > i {
+                                        width: 16px;
+                                        margin-left: 5px;
+                                    }
+                                    & > .dropdown-container {
+                                        position: absolute;
                                         width: 100%;
-                                        height: 100%;
-                                        border-radius: 50%;
-                                        display: block;
-                                        background-color: #ffffff;
+                                        min-width: 140px;
+                                        height: 0px;
+                                        overflow: hidden;
+                                        top: 100%;
+                                        left: 0px;
+                                        transition: height 0.3s;
+                                        box-sizing: border-box;
+                                        background-color: #2a303e;
+                                        & > .padding-space {
+                                            height: 14px;
+                                            padding: 0px 15px;
+                                            background-color: #3d495c;
+                                        }
+                                        & > li {
+                                            padding: 0px 15px;
+                                            height: 40px;
+                                            display: flex;
+                                            align-items: center;
+                                            color: #ffffff;
+                                            font-size: 14px;
+                                            cursor: pointer;
+                                            & > i {
+                                                width: 32px;
+                                                text-align: center;
+                                            }
+                                            & > span {
+                                                width: 0px;
+                                                flex-grow: 1;
+                                                margin-left: 10px;
+                                            }
+                                            &:hover {
+                                                color: #19a5fc;
+                                            }
+                                        }
+                                        & > .logout-item {
+                                            height: 50px;
+                                            margin-top: 5px;
+                                            border-top: 1px solid #3d495c;
+                                        }
+                                    }
+                                    &:hover {
+                                        color: #19a5fc;
+                                        & > .dropdown-container {
+                                            height: 150px;
+                                        }
                                     }
                                 }
-                                & > .header-handle-dropdown {
-                                    color: #ffffff;
+                                & > .handle-icon-container {
+                                    display: flex;
+                                    align-items: center;
+                                    & > .handle-icon-item {
+                                        width: 32px;
+                                        height: 32px;
+                                        line-height: 32px;
+                                        text-align: center;
+                                        border-radius: 50%;
+                                        cursor: pointer;
+                                        &:hover {
+                                            background-color: #2a303e;
+                                        }
+                                    }
+                                    & > .handle-icon-item.handle-is-active {
+                                        background-color: #2a303e;
+                                        color: #19a5fc;
+                                    }
+                                    & > .between-space {
+                                        width: 15px;
+                                        height: 32px;
+                                    }
                                 }
                             }
                         }
@@ -72,6 +163,7 @@ body {
                             height: 100%;
                             padding-top: @headerHeight;
                             margin-top: -@headerHeight;
+                            position: relative;
                             & > .breadcrumb-container {
                                 height: @breadcrumbHeight;
                                 box-sizing: border-box;
@@ -114,10 +206,33 @@ body {
                                     }
                                 }
                             }
+                            & > .sider-message-container {
+                                position: absolute;
+                                top: 60px;
+                                bottom: 0px;
+                                right: 0px;
+                                width: auto;
+                                background-color: red;
+                            }
                         }
                     }
                 }
             }
         }
     }
+}
+
+/* 可以设置不同的进入和离开动画 */
+/* 设置持续时间和动画函数 */
+.sider-message-fade-enter-active,.sider-message-fade-leave-active {
+    transition: all 0.5s ease;
+}
+// .sider-message-fade-leave-active {
+//     transition: all 0.5s cubic-bezier(1, 0.5, 0.8, 1);
+// }
+.sider-message-fade-enter, .sider-message-fade-leave-to
+/* .sider-message-fade-leave-active for below version 2.1.8 */ {
+    transform: translateX(300px);
+    position: absolute;
+    // opacity: 0;
 }
