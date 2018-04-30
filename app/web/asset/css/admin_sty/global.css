@@ -67,11 +67,87 @@ body #app > .admin-page-container > div > .handle-page-layout-style > .layout-bo
   justify-content: flex-end;
   color: #ffffff;
 }
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid #2a303e;
+}
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .handle-icon-item,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .handle-icon-item {
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .handle-icon-item:hover,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .handle-icon-item:hover {
+  background-color: #2a303e;
+}
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .handle-icon-item > i,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .handle-icon-item > i {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .handle-icon-item > sup.el-badge__content,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .handle-icon-item > sup.el-badge__content {
+  top: 2px;
+  right: 16px;
+}
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .handle-icon-item.handle-is-active,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .handle-icon-item.handle-is-active {
+  background-color: #2a303e;
+  color: #19a5fc;
+}
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .between-space,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .between-space {
+  width: 15px;
+  height: 32px;
+}
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .sider-message-container,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .sider-message-container {
+  position: fixed;
+  top: 60px;
+  bottom: 0px;
+  right: 0px;
+  width: 300px;
+  color: #333333;
+  background-color: #ffffff;
+  box-shadow: -3px -3px 8px rgba(0, 0, 0, 0.2);
+}
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .sider-message-container > .sider-message-title,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .sider-message-container > .sider-message-title {
+  height: 40px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 0px 20px;
+}
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .sider-message-container > .sider-message-title > span,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .sider-message-container > .sider-message-title > span {
+  flex-grow: 1;
+  width: 0px;
+}
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .sider-message-container > .sider-message-title > i,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .sider-message-container > .sider-message-title > i {
+  width: 20px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #999999;
+  cursor: pointer;
+}
 html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .user-info,
 body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .user-info {
   display: flex;
   align-items: center;
   padding-left: 15px;
+  padding-right: 15px;
   border-left: 1px solid #2a303e;
   position: relative;
 }
@@ -160,33 +236,32 @@ html #app > .admin-page-container > div > .handle-page-layout-style > .layout-bo
 body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .user-info:hover > .dropdown-container {
   height: 150px;
 }
-html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container,
-body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container {
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .current-date-container,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .current-date-container {
   display: flex;
   align-items: center;
+  padding-left: 15px;
+  border-left: 1px solid #2a303e;
 }
-html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .handle-icon-item,
-body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .handle-icon-item {
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .current-date-container > .handle-icon-item,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .current-date-container > .handle-icon-item {
   width: 32px;
   height: 32px;
   line-height: 32px;
   text-align: center;
   border-radius: 50%;
-  cursor: pointer;
 }
-html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .handle-icon-item:hover,
-body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .handle-icon-item:hover {
-  background-color: #2a303e;
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .current-date-container > .handle-icon-item > i,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .current-date-container > .handle-icon-item > i {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
-html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .handle-icon-item.handle-is-active,
-body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .handle-icon-item.handle-is-active {
-  background-color: #2a303e;
-  color: #19a5fc;
-}
-html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .between-space,
-body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .handle-icon-container > .between-space {
-  width: 15px;
-  height: 32px;
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .current-date-container > .date-details,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-header > .right-item > .current-date-container > .date-details {
+  font-size: 14px;
 }
 html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content,
 body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content {
@@ -194,7 +269,6 @@ body #app > .admin-page-container > div > .handle-page-layout-style > .layout-bo
   height: 100%;
   padding-top: 60px;
   margin-top: -60px;
-  position: relative;
 }
 html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .breadcrumb-container,
 body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .breadcrumb-container {
@@ -212,8 +286,15 @@ body #app > .admin-page-container > div > .handle-page-layout-style > .layout-bo
 html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .content-container > .common-page-container,
 body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .content-container > .common-page-container {
   height: 100%;
-  padding: 0px 15px;
+  padding: 0px 15px 15px;
+  box-sizing: border-box;
+}
+html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .content-container > .common-page-container > .common-page-content,
+body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .content-container > .common-page-container > .common-page-content {
+  width: 100%;
+  height: 100%;
   overflow-y: auto;
+  background-color: #ffffff;
 }
 html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .content-container > .list-page-container,
 body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .content-container > .list-page-container {
@@ -246,23 +327,16 @@ body #app > .admin-page-container > div > .handle-page-layout-style > .layout-bo
   display: flex;
   justify-content: flex-end;
 }
-html #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .sider-message-container,
-body #app > .admin-page-container > div > .handle-page-layout-style > .layout-body > .layout-content > .sider-message-container {
-  position: absolute;
-  top: 60px;
-  bottom: 0px;
-  right: 0px;
-  width: auto;
-  background-color: red;
-}
 /* 可以设置不同的进入和离开动画 */
 /* 设置持续时间和动画函数 */
-.sider-message-fade-enter-active,
-.sider-message-fade-leave-active {
+.sider-message-fade-enter-active {
   transition: all 0.5s ease;
+}
+.sider-message-fade-leave-active {
+  transition: all 0.1s cubic-bezier(1, 0.5, 0.8, 1);
 }
 .sider-message-fade-enter,
 .sider-message-fade-leave-to {
   transform: translateX(300px);
-  position: absolute;
+  opacity: 0;
 }

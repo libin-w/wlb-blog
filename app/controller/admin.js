@@ -12,6 +12,14 @@ class AdminController extends Controller {
             data: this.ctx.request.body
         };
     }
+    async logout() {
+        this.ctx.session.visited = null;
+        this.ctx.body = {
+            status: true,
+            message: '退出登录',
+            data: this.ctx.request.body
+        };
+    }
     async list() {
         this.ctx.body = this.ctx;
     }

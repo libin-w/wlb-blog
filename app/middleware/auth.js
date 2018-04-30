@@ -3,9 +3,10 @@ module.exports = options => {
         await next();
         console.log(123456789123456789, ctx.path);
         if (ctx.path === '/admin/login' || ctx.path === '/api/admin/login') {
+        // if (ctx.path === '/admin/login' || ctx.path === '/api/admin/login' || ctx.path === '/chat') {
             return;
         }
-        if (!ctx.session.visited) {
+        if (!ctx.session.visited && ctx.path !== '/api/admin/logout') {
             const apiPathReg = /^\/api\/./;
             if (apiPathReg.test(ctx.path)) {
                 ctx.body = {

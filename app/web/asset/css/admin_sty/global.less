@@ -54,10 +54,78 @@ body {
                                 align-items: center;
                                 justify-content: flex-end;
                                 color: #ffffff;
+
+                                & > .handle-icon-container {
+                                    display: flex;
+                                    align-items: center;
+                                    border-left: 1px solid #2a303e;
+                                    & > .handle-icon-item {
+                                        width: 32px;
+                                        height: 32px;
+                                        line-height: 32px;
+                                        text-align: center;
+                                        border-radius: 50%;
+                                        cursor: pointer;
+                                        &:hover {
+                                            background-color: #2a303e;
+                                        }
+                                        & > i {
+                                            display: flex;
+                                            width: 100%;
+                                            height: 100%;
+                                            justify-content: center;
+                                            align-items: center;
+                                        }
+                                        & > sup.el-badge__content {
+                                            top: 2px;
+                                            right: 16px;
+                                        }
+                                    }
+                                    & > .handle-icon-item.handle-is-active {
+                                        background-color: #2a303e;
+                                        color: #19a5fc;
+                                    }
+                                    & > .between-space {
+                                        width: 15px;
+                                        height: 32px;
+                                    }
+                                    & > .sider-message-container {
+                                        position: fixed;
+                                        top: 60px;
+                                        bottom: 0px;
+                                        right: 0px;
+                                        width: 300px;
+                                        color: #333333;
+                                        background-color: #ffffff;
+                                        box-shadow: -3px -3px 8px rgba(0, 0, 0, 0.2);
+
+                                        & > .sider-message-title {
+                                            height: 40px;
+                                            font-size: 16px;
+                                            display: flex;
+                                            align-items: center;
+                                            border-bottom: 1px solid #ddd;
+                                            padding: 0px 20px;
+                                            & > span {
+                                                flex-grow: 1;
+                                                width: 0px;
+                                            }
+                                            & > i {
+                                                width: 20px;
+                                                font-weight: 600;
+                                                font-size: 24px;
+                                                color: #999999;
+                                                cursor: pointer;
+                                            }
+                                        }
+                                    }
+                                }
+
                                 & > .user-info {
                                     display: flex;
                                     align-items: center;
                                     padding-left: 15px;
+                                    padding-right: 15px;
                                     border-left: 1px solid #2a303e;
                                     position: relative;
                                     & > .head-portrait {
@@ -133,27 +201,27 @@ body {
                                         }
                                     }
                                 }
-                                & > .handle-icon-container {
+                                & > .current-date-container {
                                     display: flex;
                                     align-items: center;
+                                    padding-left: 15px;
+                                    border-left: 1px solid #2a303e;
                                     & > .handle-icon-item {
                                         width: 32px;
                                         height: 32px;
                                         line-height: 32px;
                                         text-align: center;
                                         border-radius: 50%;
-                                        cursor: pointer;
-                                        &:hover {
-                                            background-color: #2a303e;
+                                        & > i {
+                                            display: flex;
+                                            width: 100%;
+                                            height: 100%;
+                                            justify-content: center;
+                                            align-items: center;
                                         }
                                     }
-                                    & > .handle-icon-item.handle-is-active {
-                                        background-color: #2a303e;
-                                        color: #19a5fc;
-                                    }
-                                    & > .between-space {
-                                        width: 15px;
-                                        height: 32px;
+                                    & > .date-details {
+                                        font-size: 14px;
                                     }
                                 }
                             }
@@ -163,7 +231,6 @@ body {
                             height: 100%;
                             padding-top: @headerHeight;
                             margin-top: -@headerHeight;
-                            position: relative;
                             & > .breadcrumb-container {
                                 height: @breadcrumbHeight;
                                 box-sizing: border-box;
@@ -176,8 +243,14 @@ body {
                                 margin-top: -@breadcrumbHeight;
                                 & > .common-page-container {
                                     height: 100%;
-                                    padding: 0px 15px;
-                                    overflow-y: auto;
+                                    padding: 0px 15px 15px;
+                                    box-sizing: border-box;
+                                    & > .common-page-content {
+                                        width: 100%;
+                                        height: 100%;
+                                        overflow-y: auto;
+                                        background-color: #ffffff;
+                                    }
                                 }
                                 & > .list-page-container {
                                     width: 100%;
@@ -206,14 +279,6 @@ body {
                                     }
                                 }
                             }
-                            & > .sider-message-container {
-                                position: absolute;
-                                top: 60px;
-                                bottom: 0px;
-                                right: 0px;
-                                width: auto;
-                                background-color: red;
-                            }
                         }
                     }
                 }
@@ -224,15 +289,14 @@ body {
 
 /* 可以设置不同的进入和离开动画 */
 /* 设置持续时间和动画函数 */
-.sider-message-fade-enter-active,.sider-message-fade-leave-active {
+.sider-message-fade-enter-active {
     transition: all 0.5s ease;
 }
-// .sider-message-fade-leave-active {
-//     transition: all 0.5s cubic-bezier(1, 0.5, 0.8, 1);
-// }
-.sider-message-fade-enter, .sider-message-fade-leave-to
-/* .sider-message-fade-leave-active for below version 2.1.8 */ {
+.sider-message-fade-leave-active {
+    transition: all 0.1s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.sider-message-fade-enter,
+.sider-message-fade-leave-to {
     transform: translateX(300px);
-    position: absolute;
-    // opacity: 0;
+    opacity: 0;
 }

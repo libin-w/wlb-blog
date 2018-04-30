@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import axios from 'axios';
-axios.defaults.headers.post['x-csrf-token'] = document.cookie.split('=')[1];
+// 为了解决 document is not defined 错误，暂时在'app/web/component/layout/admin_app/main.vue'的mounted中调用
+// axios.defaults.headers.post['x-csrf-token'] = document.cookie.split('=')[1];
 
 // 添加一个响应拦截器
 axios.interceptors.response.use(
@@ -20,9 +21,13 @@ axios.interceptors.response.use(
     }
 );
 
-// 二手房列表详情
+// 登录
 export const login = data => {
     return axios.post('/api/admin/login', data);
+};
+// 退出登录
+export const logout = () => {
+    return axios.get('/api/admin/logout');
 };
 // 二手房列表详情
 export const usedList = () => {

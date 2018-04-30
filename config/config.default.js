@@ -8,7 +8,12 @@ module.exports = app => {
     };
 
     exports.view = {
-        cache: false
+        cache: false,
+        defaultViewEngine: 'nunjucks',
+        mapping: {
+            '.tpl': 'nunjucks',
+            '.html': 'nunjucks'
+        },
     };
 
     exports.vuessr = {
@@ -27,7 +32,8 @@ module.exports = app => {
 
     exports.keys = '123456';
 
-    exports.middleware = ['access', 'auth'];
+    // exports.middleware = ['access', 'auth'];
+    exports.middleware = ['access'];
 
     return exports;
 };

@@ -1,5 +1,7 @@
 const path = require('path');
+const fs = require('fs');
 const ip = require('ip');
+const DATABASE_CONF = JSON.parse(fs.readFileSync('config/database.json')).dev; // 获取数据库配置
 module.exports = app => {
     const exports = {};
 
@@ -9,11 +11,31 @@ module.exports = app => {
 
     exports.development = {
         watchDirs: ['build'], // 指定监视的目录（包括子目录），当目录下的文件变化的时候自动重载应用，路径从项目根目录开始写
-        ignoreDirs: ['app/web', 'public', 'config'] // 指定过滤的目录（包括子目录）
+        ignoreDirs: ['app/web', 'app/react_web', 'public', 'config'] // 指定过滤的目录（包括子目录）
     };
 
     exports.logview = {
         dir: path.join(app.baseDir, 'logs')
+    };
+
+    exports.mysql = {
+        // 单数据库信息配置
+        client: {
+            // host
+            host: DATABASE_CONF.host,
+            // 端口号
+            port: '3306',
+            // 用户名
+            user: DATABASE_CONF.user,
+            // 密码
+            password: DATABASE_CONF.password,
+            // 数据库名
+            database: DATABASE_CONF.database
+        },
+        // 是否加载到 app 上，默认开启
+        app: true,
+        // 是否加载到 agent 上，默认关闭
+        agent: false
     };
 
     const localIP = ip.address();
@@ -25,7 +47,6 @@ module.exports = app => {
     });
 
     exports.security = { domainWhiteList };
-
 
     return exports;
 };
