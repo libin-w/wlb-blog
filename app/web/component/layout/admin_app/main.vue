@@ -1,20 +1,17 @@
 <template>
-    <Layout>
-        <Header>Header</Header>
-        <Layout class="ivu-layout-has-sider">
-            <Sider hide-trigger>Sider</Sider>
-            <Content class="base-page-container">
-                <div class="base-page-container">
-                    <slot name="main"></slot>
-                </div>
-            </Content>
-        </Layout>
-        <Footer>Footer</Footer>
-    </Layout>
+    <div class="admin-page-container">
+        <slot name="main"></slot>
+    </div>
 </template>
-<script type="text/babel">
+<script>
+import axios from 'axios';
 export default {
-
+    mounted() {
+        axios.defaults.headers.post['x-csrf-token'] = document.cookie.split('=')[1];
+    }
 };
 </script>
+
+
+
 

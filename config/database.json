@@ -1,0 +1,16 @@
+{
+    "dev": {
+        "host": "localhost",
+        "driver": "mysql",
+        "user": "root",
+        "password": "",
+        "database": "test_egg"
+    },
+    "prod": {
+        "host": "localhost",
+        "driver": "mysql",
+        "user": "root",
+        "password": "",
+        "database": "test_egg"
+    }
+}

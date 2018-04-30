@@ -4,3 +4,4 @@
 /logs
 /run
 package-lock.json
+/react_web/node_modules

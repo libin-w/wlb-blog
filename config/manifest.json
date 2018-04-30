@@ -1,57 +1,61 @@
 {
-  "user_app/user_app.js": "/public/js/user_app/user_app.60b303af.js",
-  "user_app/user_app.css": "/public/css/user_app/user_app.ebcb8092.css",
-  "admin_app/admin_app.js": "/public/js/admin_app/admin_app.1edc967e.js",
-  "admin_app/admin_app.css": "/public/css/admin_app/admin_app.eb557c3b.css",
-  "common.js": "/public/js/common.edde991d.js",
-  "common.css": "/public/css/common.d41d8cd9.css",
-  "font/ionicons.woff?v=2.0.0": "/public/font/ionicons.05acfdb5.woff",
-  "font/ionicons.eot?v=2.0.0": "/public/font/ionicons.2c2ae068.eot",
-  "img/ionicons.svg?v=2.0.0": "/public/img/ionicons.621bd386.svg",
+  "admin_app/admin_app.js": "/public/js/admin_app/admin_app.7a2f834d.js",
+  "admin_app/admin_app.css": "/public/css/admin_app/admin_app.76dde626.css",
+  "user_app/user_app.js": "/public/js/user_app/user_app.f7a56c92.js",
+  "common.js": "/public/js/common.6ff48695.js",
+  "img/fa-brands-400.svg": "/public/img/fa-brands-400.a1a749e8.svg",
+  "font/fa-solid-900.woff2": "/public/font/fa-solid-900.0ab54153.woff2",
+  "font/fa-regular-400.ttf": "/public/font/fa-regular-400.ad97afd3.ttf",
+  "img/fa-solid-900.svg": "/public/img/fa-solid-900.962a1bf3.svg",
+  "font/fa-brands-400.woff2": "/public/font/fa-brands-400.e8c322de.woff2",
+  "font/fa-solid-900.ttf": "/public/font/fa-solid-900.b87b9ba5.ttf",
+  "font/fa-regular-400.woff": "/public/font/fa-regular-400.ef60a4f6.woff",
+  "font/fa-brands-400.woff": "/public/font/fa-brands-400.a046592b.woff",
+  "font/fa-solid-900.eot": "/public/font/fa-solid-900.8e3c7f55.eot",
+  "img/fa-regular-400.svg": "/public/img/fa-regular-400.82f60bd0.svg",
+  "font/fa-brands-400.ttf": "/public/font/fa-brands-400.c5ebe0b3.ttf",
+  "font/fa-brands-400.eot": "/public/font/fa-brands-400.13db00b7.eot",
+  "font/fa-regular-400.woff2": "/public/font/fa-regular-400.cd6c777f.woff2",
+  "font/fa-solid-900.woff": "/public/font/fa-solid-900.faff9214.woff",
+  "font/fa-regular-400.eot": "/public/font/fa-regular-400.701ae6ab.eot",
+  "font/element-icons.woff": "/public/font/element-icons.2fad952a.woff",
+  "font/element-icons.ttf": "/public/font/element-icons.6f0a7632.ttf",
+  "img/logo_img.png": "/public/img/logo_img.b1e13bd1.png",
+  "img/welcome_img.png": "/public/img/welcome_img.71bb7bc0.png",
   "img/loading.gif": "/public/img/loading.0c81ad12.gif",
-  "font/ionicons.ttf?v=2.0.0": "/public/font/ionicons.24712f6c.ttf",
-  "vendor.js": "/public/js/vendor.4b0c0a0d.js",
+  "vendor.js": "/public/js/vendor.eb13b89a.js",
   "deps": {
-    "user_app/user_app.js": {
-      "js": [
-        "/public/js/vendor.4b0c0a0d.js",
-        "/public/js/common.edde991d.js",
-        "/public/js/user_app/user_app.60b303af.js"
-      ],
-      "css": [
-        "/public/css/common.d41d8cd9.css",
-        "/public/css/user_app/user_app.ebcb8092.css"
-      ]
-    },
     "admin_app/admin_app.js": {
       "js": [
-        "/public/js/vendor.4b0c0a0d.js",
-        "/public/js/common.edde991d.js",
-        "/public/js/admin_app/admin_app.1edc967e.js"
+        "/public/js/vendor.eb13b89a.js",
+        "/public/js/common.6ff48695.js",
+        "/public/js/admin_app/admin_app.7a2f834d.js"
       ],
       "css": [
-        "/public/css/common.d41d8cd9.css",
-        "/public/css/admin_app/admin_app.eb557c3b.css"
+        "/public/css/admin_app/admin_app.76dde626.css"
       ]
+    },
+    "user_app/user_app.js": {
+      "js": [
+        "/public/js/vendor.eb13b89a.js",
+        "/public/js/common.6ff48695.js",
+        "/public/js/user_app/user_app.f7a56c92.js"
+      ],
+      "css": []
     },
     "common.js": {
       "js": [
-        "/public/js/common.edde991d.js",
-        "/public/js/common.edde991d.js"
+        "/public/js/common.6ff48695.js",
+        "/public/js/common.6ff48695.js"
       ],
-      "css": [
-        "/public/css/common.d41d8cd9.css",
-        "/public/css/common.d41d8cd9.css"
-      ]
+      "css": []
     },
     "vendor.js": {
       "js": [
-        "/public/js/common.edde991d.js",
-        "/public/js/vendor.4b0c0a0d.js"
+        "/public/js/common.6ff48695.js",
+        "/public/js/vendor.eb13b89a.js"
       ],
-      "css": [
-        "/public/css/common.d41d8cd9.css"
-      ]
+      "css": []
     }
   },
   "info": {

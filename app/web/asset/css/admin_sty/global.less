@@ -1,4 +1,8 @@
 @import '../common_sty/normalize.css';
+@headerHeight: 60px;
+@siderWidth: 220px;
+@breadcrumbHeight: 40px;
+@contentBgColor: #f3f3f4;
 html,
 body {
     width: 100%;
@@ -6,15 +10,293 @@ body {
     #app {
         width: 100%;
         height: 100%;
-        &>.ivu-layout {
+        & > .admin-page-container {
+            width: 100%;
             height: 100%;
-            &>.ivu-layout-has-sider{
-                &>.ivu-layout-content{
-                    &>.base-page-container{
+            & > div {
+                width: 100%;
+                height: 100%;
+                & > .handle-page-layout-style {
+                    height: 100%;
+                    display: flex;
+                    & > .layout-sider {
+                        width: @siderWidth;
+                        background-color: #2a303e;
+                        & > .logo-container {
+                            text-indent: -9999px;
+                            height: 90px;
+                            margin: 0px;
+                            background: url('../../images/logo_img.png') no-repeat center center;
+                            background-size: 200px 60px;
+                        }
+                        & > .sider-menu {
+                            .el-menu-item.is-active {
+                                border-right: 3px solid #19a5fc;
+                            }
+                        }
+                    }
+                    & > .layout-body {
+                        flex-grow: 1;
+                        width: 0px;
                         height: 100%;
+                        background-color: #eeeff3;
+                        & > .layout-header {
+                            height: @headerHeight;
+                            background-color: #3d495c;
+                            position: relative;
+                            z-index: 2;
+                            & > .el-col {
+                                height: 100%;
+                            }
+                            & > .right-item {
+                                padding-right: 15px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: flex-end;
+                                color: #ffffff;
+
+                                & > .handle-icon-container {
+                                    display: flex;
+                                    align-items: center;
+                                    border-left: 1px solid #2a303e;
+                                    & > .handle-icon-item {
+                                        width: 32px;
+                                        height: 32px;
+                                        line-height: 32px;
+                                        text-align: center;
+                                        border-radius: 50%;
+                                        cursor: pointer;
+                                        &:hover {
+                                            background-color: #2a303e;
+                                        }
+                                        & > i {
+                                            display: flex;
+                                            width: 100%;
+                                            height: 100%;
+                                            justify-content: center;
+                                            align-items: center;
+                                        }
+                                        & > sup.el-badge__content {
+                                            top: 2px;
+                                            right: 16px;
+                                        }
+                                    }
+                                    & > .handle-icon-item.handle-is-active {
+                                        background-color: #2a303e;
+                                        color: #19a5fc;
+                                    }
+                                    & > .between-space {
+                                        width: 15px;
+                                        height: 32px;
+                                    }
+                                    & > .sider-message-container {
+                                        position: fixed;
+                                        top: 60px;
+                                        bottom: 0px;
+                                        right: 0px;
+                                        width: 300px;
+                                        color: #333333;
+                                        background-color: #ffffff;
+                                        box-shadow: -3px -3px 8px rgba(0, 0, 0, 0.2);
+
+                                        & > .sider-message-title {
+                                            height: 40px;
+                                            font-size: 16px;
+                                            display: flex;
+                                            align-items: center;
+                                            border-bottom: 1px solid #ddd;
+                                            padding: 0px 20px;
+                                            & > span {
+                                                flex-grow: 1;
+                                                width: 0px;
+                                            }
+                                            & > i {
+                                                width: 20px;
+                                                font-weight: 600;
+                                                font-size: 24px;
+                                                color: #999999;
+                                                cursor: pointer;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                & > .user-info {
+                                    display: flex;
+                                    align-items: center;
+                                    padding-left: 15px;
+                                    padding-right: 15px;
+                                    border-left: 1px solid #2a303e;
+                                    position: relative;
+                                    & > .head-portrait {
+                                        width: 32px;
+                                        height: 32px;
+                                        margin-right: 10px;
+                                        & > img {
+                                            width: 100%;
+                                            height: 100%;
+                                            border-radius: 50%;
+                                            display: block;
+                                            background-color: #ffffff;
+                                        }
+                                    }
+                                    & > .user-name {
+                                        font-size: 14px;
+                                        overflow: hidden;
+                                        text-overflow: ellipsis;
+                                        white-space: nowrap;
+                                        max-width: 80px;
+                                    }
+                                    & > i {
+                                        width: 16px;
+                                        margin-left: 5px;
+                                    }
+                                    & > .dropdown-container {
+                                        position: absolute;
+                                        width: 100%;
+                                        min-width: 140px;
+                                        height: 0px;
+                                        overflow: hidden;
+                                        top: 100%;
+                                        left: 0px;
+                                        transition: height 0.3s;
+                                        box-sizing: border-box;
+                                        background-color: #2a303e;
+                                        & > .padding-space {
+                                            height: 14px;
+                                            padding: 0px 15px;
+                                            background-color: #3d495c;
+                                        }
+                                        & > li {
+                                            padding: 0px 15px;
+                                            height: 40px;
+                                            display: flex;
+                                            align-items: center;
+                                            color: #ffffff;
+                                            font-size: 14px;
+                                            cursor: pointer;
+                                            & > i {
+                                                width: 32px;
+                                                text-align: center;
+                                            }
+                                            & > span {
+                                                width: 0px;
+                                                flex-grow: 1;
+                                                margin-left: 10px;
+                                            }
+                                            &:hover {
+                                                color: #19a5fc;
+                                            }
+                                        }
+                                        & > .logout-item {
+                                            height: 50px;
+                                            margin-top: 5px;
+                                            border-top: 1px solid #3d495c;
+                                        }
+                                    }
+                                    &:hover {
+                                        color: #19a5fc;
+                                        & > .dropdown-container {
+                                            height: 150px;
+                                        }
+                                    }
+                                }
+                                & > .current-date-container {
+                                    display: flex;
+                                    align-items: center;
+                                    padding-left: 15px;
+                                    border-left: 1px solid #2a303e;
+                                    & > .handle-icon-item {
+                                        width: 32px;
+                                        height: 32px;
+                                        line-height: 32px;
+                                        text-align: center;
+                                        border-radius: 50%;
+                                        & > i {
+                                            display: flex;
+                                            width: 100%;
+                                            height: 100%;
+                                            justify-content: center;
+                                            align-items: center;
+                                        }
+                                    }
+                                    & > .date-details {
+                                        font-size: 14px;
+                                    }
+                                }
+                            }
+                        }
+                        & > .layout-content {
+                            box-sizing: border-box;
+                            height: 100%;
+                            padding-top: @headerHeight;
+                            margin-top: -@headerHeight;
+                            & > .breadcrumb-container {
+                                height: @breadcrumbHeight;
+                                box-sizing: border-box;
+                                padding: 13px 15px;
+                            }
+                            & > .content-container {
+                                box-sizing: border-box;
+                                height: 100%;
+                                padding-top: @breadcrumbHeight;
+                                margin-top: -@breadcrumbHeight;
+                                & > .common-page-container {
+                                    height: 100%;
+                                    padding: 0px 15px 15px;
+                                    box-sizing: border-box;
+                                    & > .common-page-content {
+                                        width: 100%;
+                                        height: 100%;
+                                        overflow-y: auto;
+                                        background-color: #ffffff;
+                                    }
+                                }
+                                & > .list-page-container {
+                                    width: 100%;
+                                    height: 100%;
+                                    padding: 0px 15px 15px;
+                                    box-sizing: border-box;
+                                    & > .page-container {
+                                        height: 100%;
+                                        & > .table-container {
+                                            height: 100%;
+                                            box-sizing: border-box;
+                                            padding-bottom: 40px;
+                                            & > .el-table {
+                                                height: 100% !important;
+                                                border-radius: 4px;
+                                            }
+                                        }
+                                        & > .pagination-container {
+                                            height: 40px;
+                                            margin-top: -40px;
+                                            padding-top: 8px;
+                                            box-sizing: border-box;
+                                            display: flex;
+                                            justify-content: flex-end;
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
         }
     }
+}
+
+/* 可以设置不同的进入和离开动画 */
+/* 设置持续时间和动画函数 */
+.sider-message-fade-enter-active {
+    transition: all 0.5s ease;
+}
+.sider-message-fade-leave-active {
+    transition: all 0.1s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.sider-message-fade-enter,
+.sider-message-fade-leave-to {
+    transform: translateX(300px);
+    opacity: 0;
 }

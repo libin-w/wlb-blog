@@ -8,7 +8,7 @@
         </LayoutContent>
     </div>
 </template>
-<style>
+<style lang="less">
 body {
     margin: 0 0px;
 }
